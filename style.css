@@ -174,8 +174,15 @@ border-left: 1px solid;
    display: block;
 }
 
+.title{
+   width: 90%;
+   height: 150px;
+   margin: 10px auto;
+}
 
-
+.img_t{
+   max-width: 100% ;
+}
 
 
 
