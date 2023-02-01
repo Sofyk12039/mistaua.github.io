@@ -59,10 +59,6 @@ background-image: url(img/fon.jpg);
    .img{
       max-width: 100%;
       border-radius: 10px;
-   
-   }
-   .imgk{
-      border-radius:10px;
    }
    .img:hover{
      opacity: 0.5; 
