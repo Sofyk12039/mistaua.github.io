@@ -175,7 +175,7 @@ border-left: 1px solid;
 
 .title{
    width: 90%;
-   height: 150px;
+  
    margin: 10px auto;
 }
 
@@ -185,7 +185,191 @@ border-left: 1px solid;
 
 
 
+@media only screen and (max-width: 320px) {
+   .container{
+      width: 310px;
+       
+      margin: 5px auto;
+      }
+      .menu_q{
+      height: 40px;
+      width: 90%;
+      background-color: rgb(1, 98, 128);
+      margin: 5px auto;
+      }
+      .content{
+      width: 90%;
+      margin: 5px auto;
+      
+      }
+      .line{
+      width: 100%;
 
+      
+      
+      }
+      
+      
+      .box{
+      height: 200px;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.527), 0 0 20px rgba(0, 0, 0, 0.329);
+    
+      margin: 5px auto;
+      border-radius: 10px;
+      background-image: url(img/fon.jpg);
+      }
+      
+      .box:hover {
+       transform: scale(1.2); 
+       
+       transition: 1s;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0), 0 0 20px rgba(0, 0, 0, 0);
+       background-image: url(img/fon.jpg);
+      }
+      
+      .box_f {
+         height: 200px;
+         width: 200px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.527), 0 0 20px rgba(0, 0, 0, 0.329);
+         
+         border-radius: 10px;
+         background-image: url(img/fon.jpg);
+         }
+      
+      .box_f:hover{
+         transform: scale(1.2);
+         
+         transition: 1s;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0), 0 0 20px rgba(0, 0, 0, 0);
+         background-image: url(img/fon.jpg);
+      }
+         .img{
+            max-width: 100%;
+            border-radius: 10px;
+         }
+         .img:hover{
+           opacity: 0.5; 
+           transition: 1s;
+         }
+      
+      .img1{
+      border-radius: 10px;
+      
+      
+      }
+      .img1:hover{
+      opacity: 0.5 ;
+      transition: 1s;
+      }
+      
+      .photo{
+         height: 800px;
+         width: 800px;
+         float: left;
+      }
+      .text{
+         width: 345px;
+         height: 800px;
+         background-color: rgb(208, 216, 216);
+         float: right;
+         padding-left: 10px;
+         padding-right: 10px;
+         text-align: justify;
+      color: brown;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-indent: 30px;
+      text-shadow: 0 0 rgb(0, 0, 0), 0 0 0 rgb(0, 0, 0), 0 0 0 rgb(0, 0, 0);
+      }
+      h1 {
+      text-align: center;
+      
+      }
+      
+      .p{
+         float: right;
+      }
+      .h1{
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .imgk{
+         max-width: 100%;  
+      }
+      
+      
+      /*Menu*/
+      
+      .menu{
+         left: 10px;
+      }
+      .menu_index{
+       
+         right: 50px;
+      }
+      .dws-menu > ul, 
+      .dws-menu > li {
+         list-style: none;
+      }
+      .dws-menu > ul  {
+         display: flex;
+         
+      }
+      .dws-menu > ul li a {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+         display: block;
+         padding: 10px;
+         font-size: 10px;
+        background-color: rgb(21, 136, 172);
+         color: rgb(251, 255, 0);
+         text-decoration: none;
+         text-transform: uppercase; 
+         transition: all 0.5s ease;
+      
+      }
+      
+      .dws-menu > ul li :first-child{
+      border-left: 1px solid;
+      
+      }
+      .dws-menu > ul li :last-child {
+       border-right: 1px solid;  
+      }
+      .dws-menu  li a:hover {
+         background: rgb(251, 255, 0);
+         color: rgb(21, 136, 172);
+         box-shadow: 1px 5px 10px -5px white;
+         transition: all 0.3s ease;
+      }
+      
+      /*PodMenu*/
+      
+      .dws-menu  li ul{
+         position: absolute;
+         min-width: 150px;
+         display: none;
+         list-style: none;
+        
+      
+      }
+      .dws-menu  li > ul li{
+         border: 1px solid darkgray;
+         
+      }
+      .dws-menu li:hover >ul{
+         display: block;
+      }
+      
+      .title{
+         width: 90%;
+   
+         margin: 5px auto;
+      }
+      
+      .img_t{
+         max-width: 100% ;
+      }
+}
 
 
 
