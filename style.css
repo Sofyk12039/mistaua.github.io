@@ -272,7 +272,7 @@ border-left: 1px solid;
          width: 145px;
          height: 200px;
          background-color: rgb(208, 216, 216);
-         float: right;
+         float: left;
          padding-left: 10px;
          padding-right: 10px;
          text-align: justify;
