@@ -193,18 +193,18 @@ border-left: 1px solid;
       }
       .menu_q{
       height: 40px;
-      width: 90%;
+      width: 279px;
       background-color: rgb(1, 98, 128);
       margin: 5px auto;
       }
       .content{
-      width: 90%;
+      width: 279px;
       margin: 5px auto;
       
       }
       .line{
-      width: 100%;
-
+      width: 200px;
+      margin: 5px auto;
       
       
       }
@@ -214,10 +214,10 @@ border-left: 1px solid;
       height: 200px;
       width: 200px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.527), 0 0 20px rgba(0, 0, 0, 0.329);
-    
-      margin: 5px auto;
+      margin-left:0%;
       border-radius: 10px;
       background-image: url(img/fon.jpg);
+      margin-top: 10px;
       }
       
       .box:hover {
@@ -264,20 +264,20 @@ border-left: 1px solid;
       }
       
       .photo{
-         height: 200px;
-         width: 200px;
-         float: left;
+        height:279px ;
+         width: 279px;
+  
       }
       .text{
-         width: 145px;
+         width: 279px;
          height: 200px;
          background-color: rgb(208, 216, 216);
-         float: left;
+      
          padding-left: 10px;
          padding-right: 10px;
          text-align: justify;
       color: brown;
-      font-size: 20px;
+      font-size: 10px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-indent: 30px;
       text-shadow: 0 0 rgb(0, 0, 0), 0 0 0 rgb(0, 0, 0), 0 0 0 rgb(0, 0, 0);
@@ -286,10 +286,7 @@ border-left: 1px solid;
       text-align: center;
       
       }
-      
-      .p{
-         float: right;
-      }
+
       .h1{
          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
@@ -301,11 +298,12 @@ border-left: 1px solid;
       /*Menu*/
       
       .menu{
-         left: 10px;
+         margin-left: 0%;
+         
       }
       .menu_index{
-       
-         right: 50px;
+         margin-left: 0%;
+         
       }
       .dws-menu > ul, 
       .dws-menu > li {
@@ -319,7 +317,7 @@ border-left: 1px solid;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
          display: block;
          padding: 10px;
-         font-size: 10px;
+         font-size: 8px;
         background-color: rgb(21, 136, 172);
          color: rgb(251, 255, 0);
          text-decoration: none;
@@ -346,7 +344,7 @@ border-left: 1px solid;
       
       .dws-menu  li ul{
          position: absolute;
-         min-width: 150px;
+         min-width: 70px;
          display: none;
          list-style: none;
         
@@ -361,13 +359,16 @@ border-left: 1px solid;
       }
       
       .title{
-         width: 90%;
+         width: 279px;
    
          margin: 5px auto;
       }
       
       .img_t{
          max-width: 100% ;
+      }
+      .photo_f{
+         max-width: 100%;
       }
 }
 
